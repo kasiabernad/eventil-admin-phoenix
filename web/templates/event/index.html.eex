@@ -1,6 +1,6 @@
-<h2>Listing events</h2>
+<h2 class="sub-header">Listing events</h2>
 
-<table class="table">
+<table class="table events list">
   <thead>
     <tr>
       <th>Name</th>
