@@ -36,8 +36,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :eventil_admin, EventilAdmin.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "kasiakasprzak",
+  username: "zaiste",
   password: "",
-  database: "eventdrom_",
+  database: "github_nukomeet_eventdrom_nukomeet_master_staging",
   hostname: "localhost",
   pool_size: 10

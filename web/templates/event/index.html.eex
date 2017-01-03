@@ -1,6 +1,6 @@
-<h2 class="sub-header">Listing events</h2>
+<h2>Listing events</h2>
 
-<table class="table events list">
+<table class="table">
   <thead>
     <tr>
       <th>Name</th>
@@ -15,12 +15,8 @@
 
       <td class="text-right">
         <%= link "Show", to: event_path(@conn, :show, event), class: "btn btn-default btn-xs" %>
-        <%= link "Edit", to: event_path(@conn, :edit, event), class: "btn btn-default btn-xs" %>
-        <%= link "Delete", to: event_path(@conn, :delete, event), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
       </td>
     </tr>
 <% end %>
   </tbody>
 </table>
-
-<%= link "New event", to: event_path(@conn, :new) %>

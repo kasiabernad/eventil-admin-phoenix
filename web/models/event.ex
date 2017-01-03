@@ -3,6 +3,8 @@ defmodule EventilAdmin.Event do
 
   schema "events" do
     field :name, :string
+
+    has_many :agenda_sessions, EventilAdmin.AgendaSession
   end
 
   @doc """
